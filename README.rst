@@ -1,12 +1,4 @@
-Watcher
-.. |ss| raw:: html
-
-   <strike>
-
-.. |se| raw:: html
-
-   </strike>
-
+SrcWatcher
 =======
 
 A python script to run a command when a file changes. Think nodemon for node.js.
@@ -36,11 +28,12 @@ These assume you are executing the script in the current working directory.
 .. code-block:: fish
 
     srcwatcher.py "python main.py" *.*
+    
 
 TODO
 -------
 - Add watching for nested files in subdirectories
 - Allow for multiple file extension types
-- |ss|Monitor a specific file for changes|se|
-- |ss|Monitor multiple files with a specific extension for changes|se|
-- |ss|Monitor all files in the current working directory for changes|se|
+- **DONE** Monitor a specific file for changes
+- **DONE** Monitor multiple files with a specific extension for changes
+- **DONE** Monitor all files in the current working directory for changes
